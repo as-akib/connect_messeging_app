@@ -1,0 +1,27 @@
+.box{
+    margin-right: auto;
+    padding: 7px 10px;
+    background: #ffffff;
+    text-align: left;
+    /* margin: auto; */
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+    color: #141414;
+}
+.box__nouser{
+    margin-left: auto;
+    padding: 7px 10px;
+    background: #2b74e2;
+    text-align: left;
+    /* margin: auto; */
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+    color: #fff;
+}
+.box > p{
+
+}

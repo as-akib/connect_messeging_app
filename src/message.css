@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 50vw;
+    background: #ffffff;
+    padding: 20px 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* left: 0; */
+}
+.header> img{
+    width: 5vw;
+}
+.message{
+    padding: 20px;
+    /* text-align: center; */
+    width: 50vw;
+    min-height: 95vh;
+    background: #f0f0f0;
+}
+.message h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sedgwick Ave', cursive;
+    margin-top: 10px;
+    /* align-items: center; */
+    /* position: fixed; */
+    /* margin-left: 15vw;
+    border-bottom: 2px solid #464646;
+    padding: 10px; */
+}
+.input__sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    position: fixed;
+    bottom: 0px;
+    background: #fff;
+    width: 50vw;
+    max-height: 8vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 0;
+}
+.input__sec > form > input{
+    width: 36vw;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid #797979;
+    margin: 10px;
+    outline: none;
+    background: transparent;
+}
+.input__sec > form > input:focus{
+    border-bottom: 1px solid #f9a01b;
+}
+
+.message__sec{
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.message__sec > p{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .message{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+    .header{
+    width: 90vw;
+}
+    .header> img{
+    width: 15vw;
+}
+    .header > h2{
+        font-size: 18px;
+    }
+    .input__sec{
+    width: 90vw;
+}
+    .input__sec > form > input{
+    width: 60vw;
+}
+}
+
+@media only screen and (width: 280px) {
+  .message{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+    .header{
+    width: 85vw;
+}
+    .header> img{
+    width: 10vw;
+}
+    .header > h2{
+        font-size: 14px;
+    }
+    .input__sec{
+    width: 85vw;
+}
+    .input__sec > form > input{
+    width: 45vw;
+}
+}
+
+@media only screen and (width: 768px) {
+  .message{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+    .header{
+    width: 95vw;
+}
+    .header> img{
+    width: 10vw;
+}
+    .header > h2{
+        font-size: 25px;
+    }
+    .input__sec{
+    width: 95vw;
+}
+    .input__sec > form > input{
+    width: 78vw;
+}
+}
+
+@media only screen and (width: 820px) {
+  .message{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+    .header{
+    width: 95vw;
+}
+    .header> img{
+    width: 10vw;
+}
+    .header > h2{
+        font-size: 25px;
+    }
+    .input__sec{
+    width: 95vw;
+}
+    .input__sec > form > input{
+    width: 78vw;
+}
+}
+@media only screen and (width: 912px) {
+  .message{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+    .header{
+    width: 95vw;
+}
+    .header> img{
+    width: 10vw;
+}
+    .header > h2{
+        font-size: 25px;
+    }
+    .input__sec{
+    width: 95vw;
+}
+    .input__sec > form > input{
+    width: 78vw;
+}
+}
